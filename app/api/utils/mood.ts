@@ -1,6 +1,6 @@
 export const moods: {
-  name: String;
-  mood: String;
-  comment: String;
-  time: String;
+  name: string;
+  mood: string;
+  comment: string;
+  time: string;
 }[] = [];

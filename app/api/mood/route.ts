@@ -22,6 +22,7 @@ export async function POST(req: Request) {
       { status: 201 }
     );
   } catch (error) {
+    console.error("Error in /api/mood handler:", error);
     return NextResponse.json({ error: "Invalid request" }, { status: 500 });
   }
 }
